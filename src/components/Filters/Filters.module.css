@@ -1,0 +1,59 @@
+.filtersContainer {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.controlGroup {
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.input,
+.select {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input:focus,
+.select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.input {
+    width: 100%;
+}
+
+.select {
+    flex: 1;
+    min-width: 150px;
+    background-color: white;
+}
+
+.clearButton {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    color: var(--text-color);
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.clearButton:hover {
+    background-color: #f1f5f9;
+    border-color: #cbd5e1;
+}
